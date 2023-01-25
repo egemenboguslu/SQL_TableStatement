@@ -11,16 +11,16 @@ CREATE TABLE employee(
 ```
 2) Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
 
-#### Mockaroo
------
-[Click Here!](https://www.mockaroo.com)
+	#### Mockaroo
+	-----
+	[Click Here!](https://www.mockaroo.com)
 
 3) Sütunların her birine göre diğer sütunları güncelleyecek 1 adet UPDATE işlemi yapalım.
 ```
 UPDATE employee
 SET name = 'XXX YYY',
     birthday = '1996-03-13',
-	  email = 'abc@def.com'
+    email = 'abc@def.com'
 WHERE id =1;
 ```
 4) Sütunların her birine göre ilgili satırı silecek 1 adet DELETE işlemi yapalım.
